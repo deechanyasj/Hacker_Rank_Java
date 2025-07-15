@@ -1,0 +1,29 @@
+/* import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+	
+    public static void main(String[] args) {
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
+		
+        Scanner scan = new Scanner(System.in);
+*/
+       BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));
+       try{
+       int a = Integer.parseInt(obj.readLine());
+       double b = Double.parseDouble(obj.readLine());
+       String c = obj.readLine();
+       System.out.println(i+a);
+       System.out.println(d+b);
+       obj.readLine();
+       System.out.println(s+c);
+       }catch (IOException e){
+        System.out.println("Input Error occured");
+       }
+
+        scan.close();
